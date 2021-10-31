@@ -21,12 +21,13 @@ class _MovieState extends State<Movie> {
               padding: const EdgeInsets.only(top: 30.0, bottom: 30.0),
               child: Center(
                 child: Container(
-                    width: MediaQuery.of(context).size.width*0.7,
-                    height: MediaQuery.of(context).size.height*0.2,
+                    width: MediaQuery.of(context).size.width * 0.7,
+                    height: MediaQuery.of(context).size.height * 0.2,
                     child: Text(
                         "Welcome To The Movie World🎬🎥 \n Select your Movie👇🏻👇🏻",
                         style: TextStyle(
-                          fontSize: MediaQuery.of(context).size.width*0.03+12,
+                          fontSize:
+                              MediaQuery.of(context).size.width * 0.03 + 12,
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic,
                           fontFamily: 'Raleway',
@@ -34,24 +35,102 @@ class _MovieState extends State<Movie> {
               ),
             ),
             Container(
-              padding: EdgeInsets.all(10.0),
-              width: 500,
-              decoration: BoxDecoration(
-                  color: Colors.greenAccent,
-                  borderRadius: BorderRadius.circular(200)),
-              child: TextButton(
-                style: ButtonStyle(
-                overlayColor: MaterialStateColor.resolveWith((states) =>Colors.grey,
+              margin: EdgeInsets.all(10.0),
+                child:Card(
+                  elevation: 10,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(40)),
+                    child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      const ListTile(
+                        leading: Icon(Icons.album),
+                        title: Text('Forrest Gump'),
+                        subtitle: Text(
+                            'Directed by Robet Zemeckis.\n'
+                            'Stars: Tom Hanks, Robin Wright, Gary Sinise'),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: <Widget>[
+                          TextButton(
+                            child: const Text('Read review'),
+                            onPressed: () {/* ... */},
+                          ),
+                          const SizedBox(width: 8),
+                          TextButton(
+                            child: const Text('Write a review'),
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Forr()),
+                              );
+                            },
+                        
+                            
+                          ),
+                          const SizedBox(width: 14),
+                        ],
+                      ),
+                    ],
+                  ),
+                  
+                )
+              
+          
+                // padding: EdgeInsets.all(10.0),
+                // width: 500,
+                // decoration: BoxDecoration(
+                //     color: Colors.greenAccent,
+                //     borderRadius: BorderRadius.circular(200)),
+                // child: TextButton(
+                //   style: ButtonStyle(
+                //   overlayColor: MaterialStateColor.resolveWith((states) =>Colors.grey,
+                //   ),
+                //   ),
+                //   onPressed: () {
+                //       Navigator.push(
+                //          context, MaterialPageRoute(builder: (context)=>Forr()
+                //       ));
+                //   },
+                //   child: Text(
+                //     'Forrest Gump🏃‍♂️',
+                //     style: TextStyle(color: Colors.white, fontSize: 25, fontFamily: 'Raleway',fontStyle: FontStyle.italic),
+                //   ),
+                // ),
                 ),
-                ),
-                onPressed: () {
-                    Navigator.push(
-                       context, MaterialPageRoute(builder: (context)=>Forr()
-                    ));
-                },
-                child: Text(
-                  'Forrest Gump🏃‍♂️',
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontFamily: 'Raleway',fontStyle: FontStyle.italic),
+            SizedBox(
+              height: 25,
+            ),
+            Container(
+              margin: EdgeInsets.all(20.0),
+              child: Card(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    const ListTile(
+                      leading: Icon(Icons.album),
+                      title: Text('The Enchanted Nightingale'),
+                      subtitle:
+                          Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: <Widget>[
+                        TextButton(
+                          child: const Text('BUY TICKETS'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                        TextButton(
+                          child: const Text('LISTEN'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -59,49 +138,33 @@ class _MovieState extends State<Movie> {
               height: 25,
             ),
             Container(
-              padding: EdgeInsets.all(10.0),
-              width: 500,
-              decoration: BoxDecoration(
-                  color: Colors.greenAccent,
-                  borderRadius: BorderRadius.circular(200)),
-              child: TextButton(
-                style: ButtonStyle(
-                overlayColor: MaterialStateColor.resolveWith((states) =>Colors.grey,
-                ),
-                ),
-                onPressed: () {
-                    Navigator.push(
-                       context, MaterialPageRoute(builder: (context)=>Pri()
-                    ));
-                },
-                child: Text(
-                  'Pirates of the Caribbean🔪🏴‍☠️ ',
-                  style: TextStyle(color: Colors.white, fontSize: 25,fontStyle: FontStyle.italic),
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 25,
-            ),
-            Container(
-              padding: EdgeInsets.all(10.0),
-              width: 500,
-              decoration: BoxDecoration(
-                  color: Colors.greenAccent,
-                  borderRadius: BorderRadius.circular(200)),
-              child: TextButton(
-                style: ButtonStyle(
-                overlayColor: MaterialStateColor.resolveWith((states) =>Colors.grey,
-                ),
-                ),
-                onPressed: () {
-                    Navigator.push(
-                      context, MaterialPageRoute(builder: (context)=>Doc()
-                    ));
-                },
-                child: Text(
-                  'Doctor Strange 🥼🦸‍♂️',
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontFamily: 'Raleway',fontStyle: FontStyle.italic),
+              margin: EdgeInsets.all(20.0),
+              child: Card(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    const ListTile(
+                      leading: Icon(Icons.album),
+                      title: Text('The Enchanted Nightingale'),
+                      subtitle:
+                          Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: <Widget>[
+                        TextButton(
+                          child: const Text('BUY TICKETS'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                        TextButton(
+                          child: const Text('LISTEN'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -109,24 +172,34 @@ class _MovieState extends State<Movie> {
               height: 25,
             ),
             Container(
-              padding: EdgeInsets.all(10.0),
-              width: 500,
-              decoration: BoxDecoration(
-                  color: Colors.greenAccent,
-                  borderRadius: BorderRadius.circular(200)),
-              child: TextButton(
-                style: ButtonStyle(
-                overlayColor: MaterialStateColor.resolveWith((states) =>Colors.grey,
-                ),
-                ),
-                onPressed: () {
-                    Navigator.push(
-                       context, MaterialPageRoute(builder: (context)=>Aqua()
-                    ));
-                },
-                child: Text(
-                  'Aquaman 🧜‍♂️',
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontFamily: 'Raleway',fontStyle: FontStyle.italic),
+              margin: EdgeInsets.all(20.0),
+              child: Card(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    const ListTile(
+                      leading:
+                          Image(image: AssetImage('assets/images/logo.png')),
+                      title: Text('The Enchanted Nightingale'),
+                      subtitle:
+                          Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: <Widget>[
+                        TextButton(
+                          child: const Text('BUY TICKETS'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                        TextButton(
+                          child: const Text('LISTEN'),
+                          onPressed: () {/* ... */},
+                        ),
+                        const SizedBox(width: 8),
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ),

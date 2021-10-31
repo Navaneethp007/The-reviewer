@@ -44,19 +44,18 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Container(
      decoration: BoxDecoration(
-       gradient: LinearGradient(
-       begin: Alignment.topLeft,
-       end:
-           Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
-       colors: [
-         Colors.blueAccent,
-         Colors.red,
-         Colors.blueGrey,
-       ],
-         tileMode: TileMode.mirror,
-       
-     ),
-   ),
+    gradient: LinearGradient(
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+      colors: [
+        Colors.deepPurple, 
+        Colors.deepOrange
+        ],
+      tileMode: TileMode.clamp,
+      ),
+      
+  ),
+            
 
       child:Scaffold(
         backgroundColor: Colors.transparent,
@@ -139,6 +138,28 @@ class _LoginState extends State<Login> {
                                   BorderRadius.all(Radius.circular(50.0)))),
                     ),
                   ),
+                  Container(
+                  margin: EdgeInsets.only(right: 20.0),
+                  child: Row(
+                   children: [
+                     Spacer(),
+                      GestureDetector(
+                    onTap: () {
+                      print("Create Account");
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Signup()));
+                    },
+                    child:Text(
+                        "Forgot Password",
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 15.0,
+                        ),
+                      ),
+                      ),
+                    ],
+                  ),
+                ),
                   Container(
                     padding: EdgeInsets.only(
                         left: 20.0, right: 20.0, top: 10.0, bottom: 10.0),

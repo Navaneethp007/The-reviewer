@@ -6,7 +6,7 @@ class Forr extends StatefulWidget {
 }
 
 class _ForrState extends State<Forr> {
-  Color _Icon = Colors.white;
+  Color _icon = Colors.white;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,82 +57,82 @@ class _ForrState extends State<Forr> {
                 children: [
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.yellowAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.yellowAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.orangeAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.orangeAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.pinkAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.pinkAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                     icon: Icon(Icons.star),
-                    color: _Icon,
+                    color: _icon,
                     splashRadius: 30.0,
                     hoverColor: Colors.yellow,
                     splashColor: Colors.white,
                     iconSize: 90.0,
                     onPressed: () {
                       setState(() {
-                        if (_Icon == Colors.white) {
-                          _Icon = Colors.red;
+                        if (_icon == Colors.white) {
+                          _icon = Colors.red;
                         } else {
-                          _Icon = Colors.white;
+                          _icon = Colors.white;
                         }
                       });
                     },
                   ),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.purpleAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.purpleAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
@@ -256,7 +256,7 @@ class Aqua extends StatefulWidget {
 
 class _AquaState extends State<Aqua> {
   // TextEditingController controller = TextEditingController(text: "Hi");
-  Color _Icon = Colors.white;
+  Color _icon = Colors.white;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -307,82 +307,82 @@ class _AquaState extends State<Aqua> {
                 children: [
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.yellowAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.yellowAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.orangeAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.orangeAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.pinkAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.pinkAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                     icon: Icon(Icons.star),
-                    color: _Icon,
+                    color: _icon,
                     splashRadius: 30.0,
                     hoverColor: Colors.yellow,
                     splashColor: Colors.white,
                     iconSize: 90.0,
                     onPressed: () {
                       setState(() {
-                        if (_Icon == Colors.white) {
-                          _Icon = Colors.red;
+                        if (_icon == Colors.white) {
+                          _icon = Colors.red;
                         } else {
-                          _Icon = Colors.white;
+                          _icon = Colors.white;
                         }
                       });
                     },
                   ),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.purpleAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.purpleAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
@@ -512,7 +512,7 @@ class Doc extends StatefulWidget {
 }
 
 class _DocState extends State<Doc> {
-  Color _Icon = Colors.white;
+  Color _icon = Colors.white;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -563,82 +563,82 @@ class _DocState extends State<Doc> {
                 children: [
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.yellowAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.yellowAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.orangeAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.orangeAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.pinkAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.pinkAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                     icon: Icon(Icons.star),
-                    color: _Icon,
+                    color: _icon,
                     splashRadius: 30.0,
                     hoverColor: Colors.yellow,
                     splashColor: Colors.white,
                     iconSize: 90.0,
                     onPressed: () {
                       setState(() {
-                        if (_Icon == Colors.white) {
-                          _Icon = Colors.red;
+                        if (_icon == Colors.white) {
+                          _icon = Colors.red;
                         } else {
-                          _Icon = Colors.white;
+                          _icon = Colors.white;
                         }
                       });
                     },
                   ),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.purpleAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.purpleAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
@@ -761,7 +761,7 @@ class Pri extends StatefulWidget {
 }
 
 class _PriState extends State<Pri> {
-  Color _Icon = Colors.white;
+  Color _icon = Colors.white;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -812,82 +812,82 @@ class _PriState extends State<Pri> {
                 children: [
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.yellowAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.yellowAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.orangeAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.orangeAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.pinkAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.pinkAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
                   IconButton(
                     icon: Icon(Icons.star),
-                    color: _Icon,
+                    color: _icon,
                     splashRadius: 30.0,
                     hoverColor: Colors.yellow,
                     splashColor: Colors.white,
                     iconSize: 90.0,
                     onPressed: () {
                       setState(() {
-                        if (_Icon == Colors.white) {
-                          _Icon = Colors.red;
+                        if (_icon == Colors.white) {
+                          _icon = Colors.red;
                         } else {
-                          _Icon = Colors.white;
+                          _icon = Colors.white;
                         }
                       });
                     },
                   ),
                   IconButton(
                       icon: Icon(Icons.star),
-                      color: _Icon,
+                      color: _icon,
                       splashRadius: 30.0,
                       hoverColor: Colors.yellow,
                       splashColor: Colors.white,
                       iconSize: 90.0,
                       onPressed: () {
                         setState(() {
-                          if (_Icon == Colors.white) {
-                            _Icon = Colors.purpleAccent;
+                          if (_icon == Colors.white) {
+                            _icon = Colors.purpleAccent;
                           } else {
-                            _Icon = Colors.white;
+                            _icon = Colors.white;
                           }
                         });
                       }),
